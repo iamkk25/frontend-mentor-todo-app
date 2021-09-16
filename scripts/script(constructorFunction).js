@@ -152,7 +152,7 @@ TodoItem.prototype.addTodo = function (e) {
     this.activeTodoCount()
 
     // clearing the input
-    // todoInput.value = '';
+    todoInput.value = '';
 
     // event delegation is used here.
     todoItem.addEventListener('click', e => {

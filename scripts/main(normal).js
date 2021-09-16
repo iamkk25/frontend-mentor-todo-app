@@ -111,7 +111,7 @@ function addTodo(e) {
     activeTodoCount()
 
     // clearing the input
-    // todoInput.value = '';
+    todoInput.value = '';
 
     // event delegation is used here.
     todoItem.addEventListener('click', e => {

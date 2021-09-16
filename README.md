@@ -1,6 +1,6 @@
 # Frontend Mentor - Todo app
 
-## ![View](https://iamkk25.github.io/frontend-mentor-todo-app/) this site.
+## [View](https://iamkk25.github.io/frontend-mentor-todo-app/) this site.
 
 ![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)
 

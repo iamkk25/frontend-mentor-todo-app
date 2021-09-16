@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Frontend Mentor | Todo app</title>
+    <!-- <script src="./scripts/main(normal).js" defer></script> -->
+    <script src="./scripts/app(class).js" defer></script>
+    <!-- <script src="./scripts/script(constructorFunction).js" defer></script> -->
+</head>
+
+<body>
+    <main>
+        <section class="wrapper">
+            <header>
+                <h1>Todo</h1>
+                <button class="btn theme-btn light"><img src="./images/icon-moon.svg" alt="moon svg"></button>
+            </header>
+            <form>
+                <span class="round"></span>
+                <input type="text" id="todo-input" placeholder="Create a new todo...">
+                <button class="add-todo">+</button>
+            </form>
+            <div class="todo-container">
+                <ul class="todos">
+                </ul>
+                <div class="actions">
+                    <p class="left-items"><span id="count">0</span> items left</p>
+                    <a href="#" class="clear-completed-btn">Clear Completed</a>
+                </div>
+            </div>
+            <div class="filters">
+                <a href="#" class="filter-btns all active">All</a>
+                <a href="#" class="filter-btns live">Active</a>
+                <a href="#" class="filter-btns completed-btn">Completed</a>
+            </div>
+            <p class="drag-help-info">Drag and drop to reorder list</p>
+        </section>
+    </main>
+</body>
+
+</html>
